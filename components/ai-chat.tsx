@@ -50,14 +50,24 @@ import {
 } from "@/components/ai-elements/reasoning";
 import { Loader } from "@/components/ai-elements/loader";
 
+// const models = [
+//   {
+//     name: "GPT 4o",
+//     value: "openai/gpt-4o"
+//   },
+//   {
+//     name: "Deepseek R1",
+//     value: "deepseek/deepseek-r1"
+//   }
+// ];
 const models = [
   {
-    name: "GPT 4o",
-    value: "openai/gpt-4o"
+    name: "Gemini 2.5 Flash",
+    value: "gemini-2.5-flash"
   },
   {
-    name: "Deepseek R1",
-    value: "deepseek/deepseek-r1"
+    name: "Gemini 2.0 Pro",
+    value: "gemini-2.0-pro"
   }
 ];
 
